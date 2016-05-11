@@ -18,7 +18,7 @@ echo -e "root\nroot" | (passwd --stdin root)
 echo "root:root" | chpassw
 ```
 
-I'm quite sure which version actually workes on the platform, but one of them does 
+I'm *not* quite sure which version actually workes on the platform, but one of them does...
 
 * Load Files on to USB (dota_thethingsnetwork_v1.3_EU.tar,produsb.sh,usbkey.txt)
 
@@ -28,9 +28,9 @@ I'm quite sure which version actually workes on the platform, but one of them do
 
 * You're in!
 
-* Now modify mnt/fuser-1/thethingsnetwork/poly-pkt-fwd.sh and comment/delete the lines we appended. Otherwise the password will be changed everytime the script is run.
+* Now modify `mnt/fuser-1/thethingsnetwork/poly-pkt-fwd.sh` and comment/delete the lines we appended. Otherwise the password will be changed everytime the script is run.
 
-* Finally you can run "dropbear" to enable SSH access, if you want ssh to start after a reboot, edit the file ***/etc/rc.d/rc.local*** and append the line
+* Finally you can run "dropbear" to enable SSH access, if you want ssh to start after a reboot, edit the file `/etc/rc.d/rc.local` and append the line
 
 `dropbear`
 
