@@ -11,10 +11,12 @@ When updating the software, the file "poly-pkt-fwd.sh" is set to run, so let's u
 
 * Modify the **mnt/fuser-1/thethingsnetwork/poly-pkt-fwd.sh** in dota_thethingsnetwork_v1.3_EU.tar, by appending these lines:
 
-```echo "root" | /usr/bin/passwd root --stdin
+```
+echo "root" | /usr/bin/passwd root --stdin
 echo -e "root\nroot" | passwd root
 echo -e "root\nroot" | (passwd --stdin root)
-echo "root:root" | chpassw```
+echo "root:root" | chpassw
+```
 
 I'm quite sure which version actually workes on the platform, but one of them does 
 
