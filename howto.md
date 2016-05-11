@@ -1,5 +1,9 @@
 #Regain Root access on Kerlink
 
+*Disclaimer: This is tested once, and I take no responsibility if your Kerlink turns into a paperweight*
+
+By: Nicholas Swiatecki <nicholas [email-sign] swiatecki.com > 
+
 You need the uniqe ***usbkey.txt*** file for *your* kerlink.
 
 
@@ -8,6 +12,8 @@ You need the uniqe ***usbkey.txt*** file for *your* kerlink.
 When updating the software, the file "poly-pkt-fwd.sh" is set to run, so let's use this!
 
 ##In short steps: 
+
+Again, you need the uniqe ***usbkey.txt*** file for *your* kerlink.
 
 * Modify the **mnt/fuser-1/thethingsnetwork/poly-pkt-fwd.sh** in dota_thethingsnetwork_v1.3_EU.tar, by appending these lines:
 
