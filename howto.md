@@ -2,7 +2,8 @@
 
 *Disclaimer: This is tested once, and I take no responsibility if your Kerlink turns into a paperweight*
 
-By: Nicholas Swiatecki <nicholas [email-sign] swiatecki.com > 
+By: Nicholas (@Swiatecki). Shoutout to @less_sebastian for access to equipment.
+
 
 You need the uniqe ***usbkey.txt*** file for *your* kerlink.
 
@@ -39,6 +40,16 @@ I'm *not* quite sure which version actually workes on the platform, but one of t
 * Finally you can run "dropbear" to enable SSH access, if you want ssh to start after a reboot, edit the file `/etc/rc.d/rc.local` and append the line
 
 `dropbear`
+
+## Hardware info
+
+This was performed on a Kerlink with the following:
+
+```
+PROD_FW=wirmaV2_wirgrid_v2.2
+LORABOARD_TYPE="868-27dBm"
+LORABOARD_HWVERSION=05
+```
 
 ##No Serial Debugger
 If you don't have access to a serial debugger you should be able to add something like
